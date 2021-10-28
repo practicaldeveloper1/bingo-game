@@ -1,3 +1,15 @@
+# To run locally
+
+Please go to root folder and run 
+
+### `npm install`
+
+### `npm start`
+
+The web app was uploaded here.
+
+https://bingo-game-4d807.web.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
