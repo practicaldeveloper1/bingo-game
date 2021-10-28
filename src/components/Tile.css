@@ -1,0 +1,35 @@
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #054F6A;
+  padding: 14px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  min-height: 50px;
+}
+
+.tile--set {
+  background: #ff3366;
+}
+.tile--completed {
+  background:#0b0b0c2a ;
+}
+.tile--free {
+background: #a1a19ff3;
+}
+
+@media only screen and (max-width: 780px) {
+  .tile {
+    padding: 4px;
+    font-size: 16px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .tile {
+    font-size: 12px;
+  }
+}
